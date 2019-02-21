@@ -1,4 +1,4 @@
-### Cargas librer?as a utilizar
+### Cargas librer?as a utilizar Hola KAren
 suppressMessages(library(plotly)) # Graficas interactivas
 suppressMessages(library(Quandl)) # Descargar Precios
 suppressMessages(library(PortfolioAnalytics)) # Teor?a Moderna de Portafolios
@@ -154,12 +154,12 @@ plot_ly(Historicos_Ports) %>%
 
 #Los 3 activos utilizados para este portafolio son Bank of America, Pfizer y Microsoft; activos de distintos sectores. 
 #Se tomaron los precios del 1/08/15 al 1/08/17 con un capital inicial de $10,000.
-#El tamaño de la simulación fue de 5000 de los cuales se obtuvieron 430 posibles portafolios con:
+#El tamaÃ±o de la simulaciÃ³n fue de 5000 de los cuales se obtuvieron 430 posibles portafolios con:
 #rendimiento, varianza, pesos y numero de titulos de cada accion.
 #Se eligieron los 3 mejores portafolios en base a max. rendimiento, min. varianza y max. Sharpe
 #Maximo rendimiento: Pesos: BAC:32.6%, PFE:1.4%, MSFT:66% 
 #Minima varianza: Pesos: BAC:5.4%, PFE:60.8%, MSFT:33.8% 
 #Maximo Sharpe: Pesos: BAC:24.6%, PFE:5.4%, MSFT:70% 
-#Dependiendo del objetivo que se busca en relación rendimiento-riesgo los pesos de los activos en cada portafolio son diferentes.
+#Dependiendo del objetivo que se busca en relaciÃ³n rendimiento-riesgo los pesos de los activos en cada portafolio son diferentes.
 #En 2 de los 3 escenarios PFE tiene muy poco % por lo que puede ser recomendable probar con otro activo.
 #La decision de cual portafolio utilizar depende del perfil del inversionista y lo que este buscando.
